@@ -1,0 +1,155 @@
+.headerbg {
+  background: #610cff;
+  color: #fff;
+  padding: 30px;
+  outline: 0px;
+  text-align: center;
+}
+
+.headerbg>h1 {
+  font-size: 90px;
+  font-family: Merienda;
+  user-select: none;
+}
+
+body {
+  margin: 0px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.searchbar {
+  margin-top: 30px;
+  height: 40px;
+  outline: 0px;
+  border-radius: 2px;
+  border: 0px;
+  box-shadow: 0px 15px 23px #37059687;
+}
+
+.searchbar::placeholder {
+  color: #ccc;
+}
+
+.searchbtn {
+  position: absolute;
+  margin-left: -100px;
+  width: 100px;
+  margin-top: 30px;
+  height: 40px;
+  background: #ff8218;
+  border: 0px;
+  outline: 0px;
+  border-radius: 0px 2px 2px 0px;
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.contentbg {
+  padding: 30px;
+  outline: 0px;
+  text-align: center;
+}
+
+.data-table {
+  width: 100%;
+}
+
+span.property {
+  float: left;
+  font-weight: bold;
+}
+
+span.value {
+  float: right;
+}
+
+.data-table td {
+  padding: 15px;
+  border: 1px solid #ccc;
+}
+
+td.phototd {
+  width: 300px;
+  border: 0px;
+  padding: 0px;
+
+}
+
+.studPhoto {
+  height: 250px;
+  border: 3px solid white;
+  width: 216px;
+  background-repeat: no-repeat;
+  margin-left: 30px;
+}
+
+.profile {
+  padding: 40px 0px 40px 40px;
+}
+
+.cardbox {
+  margin: 30px 0px;
+  color: #fff;
+  background: #610cff;
+  border-radius: 2px;
+  box-shadow: 0px 8px 10px #00000042;
+}
+
+.examHeading {
+  text-align: left;
+}
+
+.marksTable th,
+.marksTable td {
+  padding: 5px;
+}
+
+.marksTable .heading {
+  background: #610cff;
+  color: #fff;
+  border-radius: 2px;
+}
+
+.marksTable {
+  width: 100%;
+}
+
+.marks {
+  background: #fff;
+  color: black;
+  overflow: hidden;
+}
+
+.marksTable td:first-child {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.topline {
+  border-top: 2px solid;
+}
+
+.hintbox {
+  background: #fff;
+  color: Black;
+  text-align: left;
+  padding: 0px;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.hint {
+  height: 40px;
+  padding: 0px 12px;
+}
+
+.hint:hover {
+  background: #eee;
+}
+
+.hint a,
+.hint a:hover {
+  color: #610cff;
+  text-decoration: none;
+}
