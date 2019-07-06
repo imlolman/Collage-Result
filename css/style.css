@@ -153,3 +153,13 @@ td.phototd {
   color: #610cff;
   text-decoration: none;
 }
+
+.centerLoading {
+  text-align: center;
+  margin: 70px;
+}
+
+.centerLoading>img {
+  height: 100px;
+  margin: 0px 100px;
+}

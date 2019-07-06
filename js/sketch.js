@@ -11,7 +11,8 @@ function setup() {
 function loadStudent(slug) {
   $('.hintbox').empty();
   $('.searchbar').val('');
-  $('.student-data').empty();
+  $('#student-data').empty();
+  $('#student-data').html('<h1 class="centerLoading"> <img src="images/loading.gif"> Please Wait While We Load Data... <img src="images/loading.gif"> </h1>');
   window.history.pushState("", "", '?go=' + slug);
   var studentsref = db.collection("students");
   studentsref.where("slug", "==", slug).limit(1).get().then(doc => doc.forEach(element => {
@@ -20,6 +21,8 @@ function loadStudent(slug) {
 }
 
 function displayData(data) {
+
+  $('#student-data').empty();
   const {
     name,
     rollno,
